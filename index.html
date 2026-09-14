@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jing Wen Chow & HSW (Roger) - Wedding Celebration</title>
+    <style>
+        :root {
+            --primary-color: #b5945b; /* Elegant Gold */
+            --text-dark: #1e2d42;    /* Deep Navy */
+            --bg-light: #fbf9f5;     /* Warm Cream */
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans: 'Montserrat', sans-serif;
+        }
+
+        @import url('https://googleapis.com');
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-sans);
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            margin-bottom: 60px;
+            padding-top: 40px;
+        }
+
+        h1 {
+            font-family: var(--font-serif);
+            font-size: 3rem;
+            color: var(--text-dark);
+            margin-bottom: 10px;
+            font-weight: 400;
+        }
+
+        .monogram {
+            font-family: var(--font-serif);
+            font-size: 4rem;
+            font-style: italic;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            letter-spacing: 5px;
+        }
+
+        .tagline {
+            font-size: 1.1rem;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color: var(--primary-color);
+            margin-bottom: 40px;
+        }
+
+        .details-card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 4px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+            border: 1px solid rgba(181, 148, 91, 0.2);
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+
+        .date, .time, .venue {
+            font-size: 1.2rem;
+            margin: 15px 0;
+        }
+
+        .date {
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .divider {
+            width: 60px;
+            height: 1px;
+            background-color: var(--primary-color);
+            margin: 30px auto;
+        }
+
+        .rsvp-section {
+            margin-top: 60px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--text-dark);
+            color: white;
+            padding: 15px 40px;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            border: 1px solid var(--text-dark);
+        }
+
+        .btn:hover {
+            background-color: transparent;
+            color: var(--text-dark);
+        }
+
+        footer {
+            margin-top: 80px;
+            font-size: 0.9rem;
+            color: #777;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="monogram">JW & HSW</div>
+            <h1>Jing Wen Chow & HSW (Roger)</h1>
+            <div class="divider"></div>
+            <p class="tagline">A Celebration of Love</p>
+        </header>
+
+        <section class="details-card">
+            <h2>The Wedding Ceremony</h2>
+            <p class="date">SATURDAY, 29 SEPTEMBER 2029</p>
+            <p class="time">AT FOUR O'CLOCK IN THE AFTERNOON</p>
+            
+            <div class="divider"></div>
+            
+            <p class="venue">
+                <strong>The Lakeside Terrace</strong><br>
+                Botanic Gardens
+            </p>
+        </section>
+
+        <section class="rsvp-section">
+            <p style="margin-bottom: 20px; font-style: italic;">Kindly reply by 1 August 2029</p>
+            <!-- Link this button to a Google Form or RSVP service -->
+            <a href="https://google.com" target="_blank" class="btn">RSVP Online</a>
+        </section>
+
+        <footer>
+            <p>WWW.JINGWENANDROGER.COM</p>
+        </footer>
+    </div>
+
+</body>
+</html>
